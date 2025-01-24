@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>리바트몰 product</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/common.css">
+    <link rel="stylesheet" href="./styles/product.css">
+</head>
+<body>
+    <header>
+        <div class="h_left">
+            <h1><a href="#"><img src="./images/logo.png" alt="리바트몰 로고"></a></h1>
+            <nav>
+                <a href="#">가구</a>
+                <a href="#">인테리어</a>
+                <a href="#">공방</a>
+                <a href="#">프로모션</a>
+                <a href="#">브랜드</a>
+            </nav>
+        </div>
+        <div class="h_right">
+            <form action="#" method="get" id="search_box">
+                <input type="search" name="user_search" id="user_search" placeholder="검색어 입력">
+                <button type="button" id="search_btn"><img src="./images/search.png" alt="검색"></button>
+            </form>
+            <div class="customer_service">
+                <div class="c_left">
+                    <a href="#">로그인</a>
+                    <a href="#">회원가입</a>
+                    <a href="#">고객센터</a>
+                </div>
+                <div class="c_right">
+                    <div class="line"><img src="./images/line02.png
+                        " alt="라인"></div>
+                    <a href="#"><img src="./images/shopping_cart.png" alt="장바구니"></a>
+                    <a href="#"><img src="./images/heart.png" alt="찜"></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="path"> 
+            <a href="#">가구</a>
+            <img src="./images/arrow_forward_ios.png" alt="">
+            <a href="#">책상</a>
+        </div>
+        <div class="contents">
+            <div class="left_contents">
+                <ul class="small_img">
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                </ul>
+                <div class="big_img">
+                    <span class="arrow"><!-- 백그라운드 --></span>
+                </div>
+            </div>
+            <!-- 오른쪽 -->
+            <div class="right_contents">
+                <p class="brand"><a href="#">리바트</a></p>
+                <div class="brand_title">
+                    <h1>커리어 상부선반 책상</h1>
+                    <div class="user_wish">
+                        <a href="#"><img src="./images/favorite.png" alt="위시"></a>
+                        <a href="#"><img src="./images/share.png" alt="공유하기"></a>
+                    </div>
+                </div>
+                <div class="original_price">
+                    <p>225,000</p>
+                    <p><img src="./images/Line 1.png" alt=""></p>
+                </div>
+                <div class="sale_price">
+                    <span class="rate">7%</span>
+                    <span>210,000</span>
+                </div>
+                <div class="app_sale">
+                    <p>앱 쿠폰 최대혜택가 200,000원</p>
+                    <a href="#" class="coupon">
+                        <span class="down">쿠폰 다운로드</span>
+                        <span class="down_img"><img src="./images/download.png" alt="다운로드"></span>
+                    </a>
+                </div>
+                <div class="star_review">
+                    <span class="star">
+                        <span><img src="./images/star.png" alt="별"></span>
+                        <span><img src="./images/star.png" alt="별"></span>
+                        <span><img src="./images/star.png" alt="별"></span>
+                        <span><img src="./images/star.png" alt="별"></span>
+                        <span><img src="./images/star.png" alt="별"></span>
+                    </span>
+                    <span class="review">258,252개 리뷰</span>
+                </div>
+                <div class="more_info">
+                    <dl class="benefit">
+                        <dt>혜택정보</dt>
+                        <dd>
+                            <p>무이자혜택</p>
+                            <p>결제혜택</p>
+                            <p>H.POINT 적립</p>
+                            <p>H.Point 통합 회원만 적립 가능</p>
+                        </dd>
+                    </dl>
+                    <div class="ship_code">
+                        <dl class="ship">
+                            <dt>배송정보</dt>
+                            <dd>무료/직접배송/하단 페이지 참고</dd>
+                        </dl>
+                        <dl class="code">
+                            <dt>상품코드</dt>
+                            <dd>
+                                <p>p20012386</p>
+                                <p class="code_box"><a href="#">코드복사</a></p>
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+                <form action="#" method="post">
+                    <select name="user_size" id="user_size">
+                        <option class="size_title">사이즈 선택하기</option>
+                        <option value="s">S</option>
+                        <option value="m">M</option>
+                        <option value="l">L</option>
+                    </select>
+                    <select name="user_color" id="user_color">
+                        <option class="user_color">색상 선택하기</option>
+                        <option value="s">S</option>
+                        <option value="m">M</option>
+                        <option value="l">L</option>
+                    </select>
+                </form>
+                <div class="total_price">
+                    <p class="price_title">주문금액</p>
+                    <p class="title"><span>0</span>원</p>
+                </div>
+                <div class="btn_wrap">
+                    <div class="cart"><p>장바구니</p></div>
+                    <div class="buy"><p>바로구매</p></div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,62 @@
+body {
+    background-color: #FFFDF9;
+}
+/* 헤더 */
+header {
+    height: 60px;
+    background-color: #421F0C;
+    border-radius: 50px;
+    display: flex; flex-flow: row nowrap; justify-content:space-between;
+    padding: 8.48px 40px;
+    margin: 15px 35px;
+}
+header * {color: #fff;}
+header .h_left {
+    display: flex; flex-flow: row nowrap; justify-content:space-between;
+    align-items: center;
+}
+header .h_left h1 {margin-right: 50px;}
+header .h_left h1 a {}
+header .h_left h1 a img {}
+header .h_left nav  {}
+header .h_left nav a {
+    font-size:1.13rem; font-weight:600; letter-spacing:-0.02rem;
+    margin-right: 50px;
+}
+header .h_left nav a:last-child {margin-right: 0;}
+header .h_right {
+    display: flex; flex-flow: row nowrap; justify-content:space-between;
+}
+header .h_right #search_box {
+    width: 350px; height: 100%;
+    background-color: #fff;
+    border-radius: 50px;
+    margin-right: 50px;
+    display: flex; flex-flow: row nowrap; justify-content:space-between;
+    padding: 0 20px;
+}
+header .h_right #search_box input[name^=user] {
+}
+header .h_right #search_box input[name^=user]::placeholder {
+    color: #888;
+    font-size:0.94rem; font-weight:500; letter-spacing:-0.02rem;
+}
+header .h_right #search_box .search_btn {}
+header .h_right #search_box .search_btn img {
+}
+header .h_right .customer_service {
+    display: flex; flex-flow: row nowrap; justify-content:space-between; align-items: center;
+}
+header .h_right .customer_service .c_left {
+    display: flex; flex-flow: row nowrap; justify-content:space-between; align-items: center;
+    margin-right: 15px;
+}
+header .h_right .customer_service .c_left a {
+    font-size:0.94rem; font-weight:500; letter-spacing:-0.02rem;
+}
+header .h_right .customer_service .c_left a:nth-child(2) {margin: 0 18px;}
+header .h_right .customer_service .c_right .line {display: inline-block;}
+header .h_right .customer_service .c_right .line img {}
+header .h_right .customer_service .c_right > a {display: inline-block;}
+header .h_right .customer_service .c_right > a:nth-child(2) {margin: 0 15px;}
+header .h_right .customer_service .c_right > a img {}

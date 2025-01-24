@@ -1,0 +1,266 @@
+main {}
+/* path */
+main .path {
+    display: flex; flex-flow: row nowrap;
+    margin: 29px auto 10px; width: 1600px;
+}
+main .path a {
+    letter-spacing: -0.02rem;
+}
+main .path img {margin: 0 8px;}
+/* contents */
+main .contents {
+    width: 1600px; margin: 0 auto;
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+main .contents .left_contents {
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-right: 150px; height: 100%;
+}
+main .contents .left_contents .small_img {
+    margin-right: 20px;
+}
+main .contents .left_contents .small_img li {
+    margin-bottom: 15px;
+    border-radius: 15px;
+    border: 0.5px solid #CBCBCB;
+    position: relative;
+    width: 75px; height: 75px;
+}
+main .contents .left_contents .small_img li::after {
+    display: block; content: '';
+    position: absolute; top: 0; bottom: 0;
+    width: 100%; height: 100%;
+    background:rgba(255,255,255,0.4);
+}
+main .contents .left_contents .small_img li.active {
+    border-color: 2px solid #421F0C;
+}
+/* 사진 */
+main .contents .left_contents .small_img li:nth-child(1) {
+    background-image: url(../images/small1.jpg);
+}
+main .contents .left_contents .small_img li:nth-child(2) {
+    background-image: url(../images/small2.jpg);
+}
+main .contents .left_contents .small_img li:nth-child(3) {
+    background-image: url(../images/small3.jpg);
+}
+main .contents .left_contents .small_img li:nth-child(4) {
+    background-image: url(../images/small4.jpg);
+}
+main .contents .left_contents .small_img li:nth-child(5) {
+    background-image: url(../images/small5.jpg);
+}
+main .contents .left_contents .small_img li:nth-child(6) {
+    background-image: url(../images/small6.jpg);
+}
+main .contents .left_contents .small_img li a {
+    display: block; height: 100%;
+}
+main .contents .left_contents .small_img li a img {
+}
+main .contents .left_contents .big_img {
+    width: 655px; height: 705px;
+    background-image: url(../images/Frame\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid #CBCBCB;
+    border-radius: 10px;
+}
+main .contents .left_contents .big_img .arrow {}
+/* 오른쪽 */
+main .contents .right_contents {
+    width: 700px;
+}
+main .contents .right_contents .brand {margin-bottom: 10px;}
+main .contents .right_contents .brand > a {
+    letter-spacing: -0.02rem;
+}
+main .contents .right_contents .brand_title {
+    display: flex; flex-flow: row nowrap; justify-content: space-between;
+    margin-bottom: 20px;
+}
+main .contents .right_contents .brand_title h1 {
+    font-size: 2.50rem; letter-spacing: -0.02rem; font-weight: 500;
+    white-space: nowrap;
+}
+main .contents .right_contents .brand_title .user_wish {
+    display: flex; flex-flow: row nowrap; justify-content: space-between;
+}
+main .contents .right_contents .brand_title .user_wish a:first-child {margin-right: 10px;}
+main .contents .right_contents .brand_title .user_wish a {}
+main .contents .right_contents .brand_title .user_wish a img {}
+main .contents .right_contents .original_price {
+    position: relative;
+    margin-bottom: 5px;
+}
+main .contents .right_contents .original_price p {
+    font-size: 1.56rem; letter-spacing: -0.02rem; font-weight: 600;
+    color: #CBCBCB;
+}
+main .contents .right_contents .original_price p:last-child {
+    position: absolute; top: -8px; left: 0;
+}
+main .contents .right_contents .original_price p:last-child img {}
+main .contents .right_contents .sale_price {
+    margin-bottom: 5px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #CBCBCB;
+}
+main .contents .right_contents .sale_price span {
+    font-size: 2.50rem; color: #222; font-weight: 600; letter-spacing: -0.02rem;
+}
+main .contents .right_contents .sale_price .rate {
+    color: #95512D; margin-right: 20px;
+}
+main .contents .right_contents .app_sale {
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between; align-items: center;
+    margin-bottom: 5px;
+}
+main .contents .right_contents .app_sale > p {
+    font-size: 1.13rem; letter-spacing: -0.02rem;
+}
+main .contents .right_contents .app_sale .coupon {
+    display: flex; flex-flow: no wrap; justify-content: space-between; align-items: center;
+    background-color: #421F0C;
+    border-radius: 5px;
+    padding: 12px 5px;
+}
+main .contents .right_contents .app_sale .coupon span {}
+main .contents .right_contents .app_sale .coupon .down {
+    font-size: 0.94rem; font-weight: 500; letter-spacing: -0.02rem; color: #fff;
+    margin-right: 8px;
+}
+main .contents .right_contents .app_sale .coupon .down_img {}
+main .contents .right_contents .star_review {
+    display: flex; align-items: center;
+    margin-bottom: 45px;
+}
+main .contents .right_contents .star_review .star {
+    display: flex;
+    margin-right: 5px;
+}
+main .contents .right_contents .star_review .star span {}
+main .contents .right_contents .star_review .star span img {}
+main .contents .right_contents .star_review .review {
+    color: #95512D;
+    font-size: 0.94rem; font-weight: 700; letter-spacing: -0.02rem;
+}
+main .contents .right_contents .more_info {
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-bottom: 45px;
+}
+/* 공통글자 */
+main .contents .right_contents .more_info dt {
+    color: #B1B1B1;
+    margin-right: 18px;
+    font-size: 1.13rem; letter-spacing: -0.02rem;
+}
+main .contents .right_contents .more_info a,
+main .contents .right_contents .more_info dd,
+main .contents .right_contents .more_info p {
+    font-size: 1.13rem; letter-spacing: -0.02rem;
+    color: #2F3438;
+}
+main .contents .right_contents .more_info p:last-child {margin-bottom: 0;}
+main .contents .right_contents .more_info .benefit {
+    display: flex; justify-content: space-between;
+}
+
+main .contents .right_contents .more_info .benefit dt {
+}
+main .contents .right_contents .more_info .benefit dd {
+}
+main .contents .right_contents .more_info .benefit dd p {margin-bottom: 15px;}
+main .contents .right_contents .more_info .ship_code {
+}
+main .contents .right_contents .more_info .ship_code .ship {
+    display: flex; flex-flow: row nowrap; justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+main .contents .right_contents .more_info .ship_code .ship dt {}
+main .contents .right_contents .more_info .ship_code .ship dd {}
+main .contents .right_contents .more_info .ship_code .code {display: flex;  align-items: center;}
+main .contents .right_contents .more_info .ship_code .code dt {margin-right: 18px;}
+main .contents .right_contents .more_info .ship_code .code dd {display: flex; justify-content: space-between; align-items: center;}
+main .contents .right_contents .more_info .ship_code .code dd p:first-child {margin-right: 35px;}
+main .contents .right_contents .more_info .ship_code .code dd p {}
+main .contents .right_contents .more_info .ship_code .code dd .code_box {
+    padding: 8px 15px;
+    border: 1px solid #222;
+    border-radius: 2px;
+}
+main .contents .right_contents .more_info .ship_code .code dd .code_box a {}
+/* form */
+main .contents .right_contents form {
+    display: flex; flex-flow: column nowrap;
+    margin-bottom: 45px;
+}
+main .contents .right_contents form > * {
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #421F0C;
+    background-image: url(../images/arrow_b.png);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 660px;
+}
+main .contents .right_contents form #user_size {
+    margin-bottom: 10px;
+}
+main .contents .right_contents form #user_size .size_title { color: #CBCBCB; }
+main .contents .right_contents form #user_size option {}
+main .contents .right_contents form #user_color {}
+main .contents .right_contents form #user_color .user_color {}
+main .contents .right_contents form #user_color option {}
+/* 주문 */
+main .contents .right_contents .total_price {
+    display: flex; justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+} 
+main .contents .right_contents .total_price .price_title {
+    font-size: 1.13rem; letter-spacing: -0.02rem; font-weight: 700; color: #2F3438;
+} 
+main .contents .right_contents .total_price .title {
+    font-size: 1.88rem; font-weight: 700; letter-spacing: -0.02rem;
+    color: #2F3438;
+} 
+main .contents .right_contents .total_price .title span {} 
+/* 버튼 */
+main .contents .right_contents .btn_wrap {
+    display: flex; justify-content: space-between;
+} 
+main .contents .right_contents .btn_wrap > * {
+    border-radius: 10px;
+    width: calc((100% - 15px) / 2);
+    text-align: center;
+}
+main .contents .right_contents .btn_wrap p {
+    line-height: 80px;
+    font-size: 1.44rem; font-weight: 700; letter-spacing: -0.02rem;
+}
+main .contents .right_contents .btn_wrap .cart {
+    border: 1.3px solid #421F0C;
+    background-color: #fff;
+} 
+main .contents .right_contents .btn_wrap .cart p {
+    color: #421F0C;
+} 
+main .contents .right_contents .btn_wrap .buy {
+    background-color: #421F0C;
+} 
+main .contents .right_contents .btn_wrap .buy p {
+    color: #fff;
+} 
+/* 푸터 */
+footer {
+    margin: 500px 0;
+}
